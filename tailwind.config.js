@@ -23,6 +23,42 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
 
+      berry: {
+        100: "#d7d8dd",
+        200: "#b0b2bb",
+        300: "#888b98",
+        400: "#616576",
+        500: "#393e54",
+        600: "#2e3243",
+        700: "#222532",
+        800: "#171922",
+        900: "#0b0c11"
+      },
+
+      sushi: {
+        100: "#ffe6ea",
+        200: "#ffcdd4",
+        300: "#ffb3bf",
+        400: "#ff9aa9",
+        500: "#ff8194",
+        600: "#cc6776",
+        700: "#994d59",
+        800: "#66343b",
+        900: "#331a1e"
+      },
+
+      melon: {
+        100: "#e2f5ea",
+        200: "#c5ead5",
+        300: "#a8e0c0",
+        400: "#8bd5ab",
+        500: "#6ecb96",
+        600: "#58a278",
+        700: "#427a5a",
+        800: "#2c513c",
+        900: "#16291e"
+      },
+
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
@@ -170,6 +206,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Karla',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',
@@ -185,7 +222,7 @@ module.exports = {
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
       ],
-      serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      serif: ['Inter', 'ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
         'ui-monospace',
         'SFMono-Regular',
@@ -747,7 +784,7 @@ module.exports = {
     appearance: ['responsive'],
     backgroundAttachment: ['responsive'],
     backgroundClip: ['responsive'],
-    backgroundColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
+    backgroundColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus', 'active'],
     backgroundImage: ['responsive'],
     backgroundOpacity: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus'],
     backgroundPosition: ['responsive'],
