@@ -4,7 +4,7 @@ A web app to search and nominate movies for the upcoming Shoppies!
 
 Created for Shopify's Summer 2021 Web Developer internship challenge.
 
-Deployed over @ [shoppies.vinhnguyen.ca](https://shoppies.vinhnguyen.ca)
+Deployed at [vinhvn.github.io/shopify-2021](https://vinhvn.github.io/shopify-2021)
 
 ## Preview
 
